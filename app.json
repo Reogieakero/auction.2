@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "auction",
+    "slug": "auction",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "auction",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "dark": {
+            "backgroundColor": "#000000"
+          }
+        }
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "FIREBASE_API_KEY": "AIzaSyCN8x2x-fsRhJmWe5ADJG4v4ZnQ-MjBiAU",
+      "FIREBASE_AUTH_DOMAIN": "auction-11755.firebaseapp.com",
+      "FIREBASE_PROJECT_ID": "auction-11755",
+      "FIREBASE_STORAGE_BUCKET": "auction-11755.firebasestorage.app",
+      "FIREBASE_MESSAGING_SENDER_ID": "161946069616",
+      "FIREBASE_APP_ID": "1:161946069616:web:6ada771ea1a2aa0c3f22b5",
+      "BACKEND_URL": "http://192.168.1.6:3000"
+    }
+  }
+}
